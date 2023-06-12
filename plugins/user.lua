@@ -49,8 +49,8 @@ return {
             underline_visible = false,
           },
           indent_blankline = {
-            context_highlight = "default", -- default | pro
-            context_start_underline = false,
+            context_highlight = "pro", -- default | pro
+            context_start_underline = true,
           },
         },
       }
@@ -119,7 +119,7 @@ return {
           close_icon = "",
           left_trunc_marker = "",
           right_trunc_marker = "",
-          separator_style = "slant",
+          separator_style = "padded_slant",
           hover = {
             enabled = true,
             delay = 100,
@@ -137,7 +137,6 @@ return {
     -- "lukas-reineke/indent-blankline.nvim",
     -- config = function()
     --   vim.opt.list = true
-    --
     --   require("indent_blankline").setup {
     --     space_char_blankline = " ",
     --     show_current_context = true,
