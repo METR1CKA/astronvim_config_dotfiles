@@ -20,6 +20,7 @@ return {
   -- Set colorscheme to use
   -- colorscheme = "vscode",
   colorscheme = "monokai-pro",
+  -- colorscheme = "astrodark",
   -- colorscheme = "onedark",
   -- colorscheme = "onedark_dark",
 

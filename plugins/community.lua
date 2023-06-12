@@ -9,7 +9,7 @@ return {
 
   -- Indent
   { import = "astrocommunity.indent.mini-indentscope" },
-  -- { import = "astrocommunity.indent.indent-blankline-nvim" },
+  { import = "astrocommunity.indent.indent-blankline-nvim" },
 
   -- Syntax
   { import = "astrocommunity.syntax.hlargs-nvim" },
